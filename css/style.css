@@ -114,11 +114,11 @@
      
     }
   
-    article,
+/*     article,
     aside {
       flex-basis: 100%;
       margin: 0;
-    }
+    } */
   
     aside {
       max-height: none;
