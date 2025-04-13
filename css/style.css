@@ -1,1 +1,158 @@
 
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+
+
+.cover-section {
+  background-image: url('./../images/sud.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  color: white;
+}
+
+.cover-overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* overlay sombre */
+  z-index: 1;
+}
+
+.cover-content {
+  position: relative;
+  z-index: 2;
+}
+
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 1.25rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .clear {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 7%;
+    max-height: 100vh;
+    gap: 2rem; /* ajoute un petit espace entre les colonnes */
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  article {
+    flex-basis: 50%;
+    margin-left: 0; /* déjà géré par le padding du parent */
+  }
+  
+  aside {
+    flex-basis: 50%;
+    max-height: 90vh;
+  }
+
+  aside p {
+    text-align: justify;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 25px;
+    display: -webkit-box;
+    -webkit-line-clamp: 20; /* nombre de lignes à afficher */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	
+}
+
+
+.card-section{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-top:6%;
+  justify-content: space-between;
+  padding-bottom: 5%;
+  margin-top: 10%;
+}
+
+.card{
+  flex-basis: 30%;
+  
+}
+
+  
+
+
+
+@media screen and(max-width: 768px) {
+    .clear {
+      flex-direction: column;
+      height: auto;
+    /* padding-bottom: 200vw; */
+     
+    }
+  
+    article,
+    aside {
+      flex-basis: 100%;
+      margin: 0;
+    }
+  
+    aside {
+      max-height: none;
+      overflow: visible;
+      padding-bottom: 2rem;
+    }
+
+    .card-section {
+      flex-direction: column;
+      margin-bottom: 3%;
+      height: auto;
+      padding-top:400vw;
+      width: 100%;
+      align-items: center;
+      max-width: 400vw;
+      }
+
+
+     
+      .cover-section {
+        height: auto; /* plus besoin de 100vh sur mobile */
+        padding: 4rem 2rem;
+        text-align: center;
+        padding-bottom: 40%;
+      }
+
+
+  }
+
+  .navbar-brand{
+    padding-left: 5%;
+  }
+  
+  p{
+    text-align: justify;
+  }
+  
