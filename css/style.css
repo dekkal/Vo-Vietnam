@@ -107,32 +107,6 @@
 
 
 @media screen and(max-width: 768px) {
-    .clear {
-      flex-direction: column;
-      height: auto;
-    /* padding-bottom: 200vw; */
-     
-    }
-  
-
-  
-    aside {
-      max-height: none;
-      overflow: visible;
-      padding-bottom: 2rem;
-    }
-
-    .card-section {
-      flex-direction: column;
-      margin-bottom: 3%;
-      height: auto;
-      padding-top:400vw;
-      width: 100%;
-      align-items: center;
-      max-width: 400vw;
-      }
-
-
      
       .cover-section {
         height: auto; /* plus besoin de 100vh sur mobile */
@@ -150,5 +124,20 @@
   
   p{
     text-align: justify;
+  }
+
+  @media screen and (min-width:373px) and (max-width:740px){
+    .card-section{
+
+        flex-direction: column;
+        margin-bottom: 3%;
+        align-items: center;
+    }
+    .clear{
+
+      flex-direction: column;
+      margin-bottom: 3%;
+  }
+
   }
   
