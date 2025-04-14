@@ -43,7 +43,17 @@
 
   $(document).ready(function(){
     $('.collapsible').collapsible();
-  });</script>    
+  });</script>  
+
+
+    <script>
+  $(document).ready(function () {
+    $(".collapsible").click(function () {
+      $(this).toggleClass("active");
+      $(this).next(".content").slideToggle(200);
+    });
+  });
+</script>
 <meta name="theme-color" content="#7952b3">
    <link href="css/collapsible.css" rel="stylesheet">
 
