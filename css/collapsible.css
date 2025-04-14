@@ -1,3 +1,9 @@
+.collapsible{
+margin-bottom:3%;
+
+}
+
+
 .collapsed {
     display: none;
 }
