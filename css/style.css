@@ -118,7 +118,9 @@
         padding-bottom: 40%;
       }
  .cover-section {
-     min-height: 60vh;
+     background-position: top;
+    background-size: contain;
+    background-color: black;
   }
 
   }
