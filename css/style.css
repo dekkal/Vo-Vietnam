@@ -136,11 +136,14 @@
         align-items: center;
     }
 .cover-section {
-	        margin-top: 18%;
+/* 	        margin-top: 18%;
      background-position: top;
     background-size: contain;
     background-color: #0e5333;
-	display:none;
+	display:none; */
+	max-height: 50vh;
+        margin-top: 21%;
+        background-position: center;
   }
 
 	  
