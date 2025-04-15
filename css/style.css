@@ -117,12 +117,7 @@
         text-align: center;
         padding-bottom: 40%;
       }
- .cover-section {
-     background-position: top;
-    background-size: contain;
-    background-color: black;
-  }
-
+ 
   }
 
   .navbar-brand{
@@ -140,6 +135,14 @@
         margin-bottom: 3%;
         align-items: center;
     }
+.cover-section {
+     background-position: top;
+    background-size: contain;
+    background-color: black;
+	display:none;
+  }
+
+	  
     .clear{
 
       flex-direction: column;
@@ -147,6 +150,9 @@
   }
 .card{
 	padding-bottom: 3%;
+
+  }
+
 
   }
   
