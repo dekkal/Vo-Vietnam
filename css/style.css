@@ -136,9 +136,9 @@
         align-items: center;
     }
 .cover-section {
-     background-position: top;
+/*      background-position: top;
     background-size: contain;
-    background-color: black;
+    background-color: black; */
 	display:none;
   }
 
