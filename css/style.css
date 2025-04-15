@@ -115,7 +115,7 @@
         height: auto; /* plus besoin de 100vh sur mobile */
         padding: 4rem 2rem;
         text-align: center;
-        padding-bottom: 40%;
+        padding-bottom: 10%;
       }
  
   }
@@ -136,9 +136,9 @@
         align-items: center;
     }
 .cover-section {
-/*      background-position: top;
+     background-position: top;
     background-size: contain;
-    background-color: black; */
+    background-color: brown;
 	display:none;
   }
 
