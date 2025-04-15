@@ -136,9 +136,10 @@
         align-items: center;
     }
 .cover-section {
+	        margin-top: 18%;
      background-position: top;
     background-size: contain;
-    background-color: brown;
+    background-color: #0e5333;
 	display:none;
   }
 
